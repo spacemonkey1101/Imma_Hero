@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.MainFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/hero_bg_gradient"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="20dp"
+            android:layout_marginTop="35dp"
+            android:src="@drawable/heroes" />
+
+        <Button
+            android:id="@+id/accidentBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="25dp"
+            android:width="300dp"
+            android:height="50dp"
+            android:background="@drawable/hero_button"
+            android:drawableLeft="@drawable/lightning"
+            android:gravity="center"
+            android:paddingLeft="5dp"
+            android:paddingRight="10dp"
+            android:text="Caused By Accident"
+            android:textColor="#FAC740" />
+
+        <Button
+            android:id="@+id/geneticBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:width="300dp"
+            android:height="50dp"
+            android:background="@drawable/hero_button"
+            android:drawableLeft="@drawable/atomic"
+            android:gravity="center"
+            android:paddingLeft="5dp"
+            android:paddingRight="10dp"
+            android:text="Genetic Mutation"
+            android:textColor="#FAC740" />
+
+        <Button
+            android:id="@+id/bornBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:width="300dp"
+            android:height="50dp"
+            android:background="@drawable/hero_button"
+            android:drawableLeft="@drawable/rocket"
+            android:gravity="center"
+            android:paddingLeft="5dp"
+            android:paddingRight="10dp"
+            android:text="Born With Them"
+            android:textColor="#FAC740" />
+        <Button
+            android:id="@+id/choosePowerBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="25dp"
+            android:width="300dp"
+            android:height="55dp"
+            android:background="@drawable/hero_solid_button"
+            android:gravity="center"
+            android:paddingLeft="5dp"
+            android:paddingRight="10dp"
+            android:text="Choose Powers"
+            android:textColor="#10161D"
+            android:backgroundTint="#FAC740"
+            android:textSize="22dp"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</FrameLayout>
